@@ -1,4 +1,4 @@
-create table dm_rfm_segments (
+create table analysis.dm_rfm_segments (
   user_id INT NOT NULL PRIMARY KEY,
   recency INT NOT NULL CHECK(recency >= 1 AND recency <= 5),
   frequency INT NOT NULL CHECK(recency >= 1 AND recency <= 5),
